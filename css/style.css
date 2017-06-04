@@ -75,7 +75,7 @@ p {
     color: #B5B5B5;
 }
 .navbar-brand {
-    padding: 9px 15px;
+    padding: 7px 15px;
 }
 .navbar-brand img  {
      transition: all 1s;
@@ -124,6 +124,9 @@ p {
     font-size: 17px;
     line-height: 28px;
     font-weight: 300;
+}
+.header-text span {
+    color: #129CF3;
 }
 .header-btns {
     margin-top: 90px;
