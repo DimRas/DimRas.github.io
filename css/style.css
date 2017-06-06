@@ -54,6 +54,7 @@ p {
     background-color: transparent;
     border-color: #444;
     z-index: 110;
+    opacity: 0;
     transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
