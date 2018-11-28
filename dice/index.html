@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
-        <link href="https://unpkg.com/ionicons@4.4.8/dist/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
         <link type="text/css" rel="stylesheet" href="style.css">
+        <link type="text/css" rel="stylesheet" href="queries.css">
         
         <title>Pig Game</title>
     </head>
@@ -29,9 +30,13 @@
                 </div>
             </div>
             
-            <button class="btn-new"><i class="ion-ios-add-circle-outline"></i>New game</button>
-            <button class="btn-roll"><i class="ion-ios-sync"></i>Roll dice</button>
-            <button class="btn-hold"><i class="ion-ios-arrow-round-down"></i>Hold</button>
+            <div class="description" data-title="The game has 2 players, playing in rounds.
+            In each turn, a player rolls a dice as many times as he whishes. Each result get added to his ROUND score. BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn. The player can choose to 'Hold', which means that his ROUND score gets added to his GLBAL score. After that, it's the next player's turn
+            The first player to reach 100 points on GLOBAL score wins the game!"><h1>Game Rules</h1> </div>
+            
+            <button class="btn-new" ><i class="ion-ios-plus-outline"></i>New game</button>
+            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+            <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
             
             <input type="text" placeholder="Final score" class="final-score">
             
