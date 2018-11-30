@@ -50,16 +50,9 @@
 
 .description i {
     display: inline-block;
-
     font-size: 64px;
-    left: 2%;
-    transform: translateX(-15%);
     color: #EB4D4D;
-    padding-top: 20px;
     cursor: pointer;
-
-    margin-right: 15px;
-    margin-top: -4px;
     transition: margin 0.3s;
 }
 
