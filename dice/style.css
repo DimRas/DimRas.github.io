@@ -49,8 +49,8 @@
 }
 
 .description i {
+    display: inline-block;
     position: absolute;
-    text-align: center;
     font-size: 32px;
     left: 2%;
     transform: translateX(-15%);
