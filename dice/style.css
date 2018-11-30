@@ -49,6 +49,8 @@
 }
 
 .description i {
+    margin: 0;
+    padding: 0;
     color: #EB4D4D;
     display: inline-block;
     font-size: 32px;
