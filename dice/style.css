@@ -91,7 +91,7 @@ body {
 }
 
 .wrapper {
-    width: 800px;
+    width: 1000px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -105,7 +105,7 @@ body {
 .player-1-panel {
     width: 50%;
     float: left;
-    height: 580px;
+    height: 600px;
     padding: 100px;
 }
 
