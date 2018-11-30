@@ -51,7 +51,7 @@
 .description i {
     position: absolute;
     text-align: center;
-    width: 90px;
+    font-size: 32px;
     left: 2%;
     transform: translateX(-15%);
     color: #EB4D4D;
