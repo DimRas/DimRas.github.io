@@ -49,10 +49,11 @@
 }
 
 .description i {
-    display: inline-block;
-    font-size: 64px;
     color: #EB4D4D;
-    cursor: pointer;
+    display: inline-block;
+    font-size: 32px;
+    vertical-align: text-top;
+    margin-top: -4px;
     transition: margin 0.3s;
 }
 
