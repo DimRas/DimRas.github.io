@@ -49,6 +49,7 @@
 }
 
 .description i {
+    position: absolute;
     margin: 0;
     padding: 0;
     color: #EB4D4D;
