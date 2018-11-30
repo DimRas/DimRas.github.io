@@ -50,18 +50,21 @@
 
 .description i {
     display: inline-block;
-    position: absolute;
+
     font-size: 32px;
     left: 2%;
     transform: translateX(-15%);
     color: #EB4D4D;
     padding-top: 10px;
-    background: none;
-    font-family: Lato;
     font-size: 12px;
-    text-transform: uppercase;
     cursor: pointer;
-    font-weight: 300; 
+    
+    margin-right: 15px;
+    font-size: 32px;
+    line-height: 1;
+    vertical-align: text-top;
+    margin-top: -4px;
+    transition: margin 0.3s;
 }
 
 
