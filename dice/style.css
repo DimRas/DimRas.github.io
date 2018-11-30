@@ -55,11 +55,10 @@
     left: 2%;
     transform: translateX(-15%);
     color: #EB4D4D;
-    padding-top: 10px;
+    padding-top: 20px;
     cursor: pointer;
 
     margin-right: 15px;
-    font-size: 32px;
     margin-top: -4px;
     transition: margin 0.3s;
 }
