@@ -49,6 +49,8 @@
 }
 
 .description i {
+    margin: 0;
+    padding: 0;
     color: #EB4D4D;
     font-size: 32px;
     vertical-align: text-top;
