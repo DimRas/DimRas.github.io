@@ -64,11 +64,11 @@
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     
-    .wrapper { width: 400px; }
+    .wrapper { width: 800px; }
     
     .player-0-panel,
     .player-1-panel {
-    height: 500px;
+    height: 300px;
     padding: 80px;
     }
     
