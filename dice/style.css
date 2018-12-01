@@ -53,12 +53,12 @@
     display: block;
     cursor: pointer;
     color: #555;
-    font-size: 30px;
+    font-size: 31px;
     margin-top: 40px;
     margin-left: 40px
 }
 
-.description i:hover {
+.description:hover i {
     color: #EB4D4D;
     transition: color 0.3s;
     font-size: 32px;
