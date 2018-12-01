@@ -64,7 +64,7 @@
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     
-    .wrapper { width: 800px; }
+    .wrapper { width: 700px; }
     
     .player-0-panel,
     .player-1-panel {
