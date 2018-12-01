@@ -34,28 +34,34 @@
     content: attr(data-title); 
     position: absolute;
     text-align: center;
+    transition: attr(data-title) 0.1s;
     color: #fff;
     width: 500px;
     top: 30%;
     left: 50%;
     transform: translateX(-50%); 
-    z-index: 1; 
     background: #EB4D4D;
     font-family: Lato; 
     font-size: 18px; 
     padding: 5px 10px; 
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
-    letter-spacing: 1px;   
+    letter-spacing: 1px; 
+} 
+
+.description i { 
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    color: #555;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px
 }
 
-.description i {
-    
-    position: absolute;
+.description i:hover {
     color: #EB4D4D;
+    transition: color 0.3s;
     font-size: 32px;
-    vertical-align: text-top;
-    margin-top: -4px;
-    transition: margin 0.3s;
 }
 
 
