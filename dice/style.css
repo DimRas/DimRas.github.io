@@ -34,18 +34,18 @@
     content: attr(data-title); 
     position: absolute;
     text-align: center;
-    transition: attr(data-title) 0.1s;
     color: #fff;
     width: 500px;
     top: 30%;
     left: 50%;
     transform: translateX(-50%); 
-    background: #EB4D4D;
+    background: #555;
     font-family: Lato; 
     font-size: 18px; 
     padding: 5px 10px; 
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
-    letter-spacing: 1px; 
+    letter-spacing: 0.8px; 
+    line-height: normal;
 } 
 
 .description i { 
