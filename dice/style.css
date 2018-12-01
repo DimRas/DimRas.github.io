@@ -52,16 +52,16 @@
     position: absolute;
     display: block;
     cursor: pointer;
-    color: #555;
-    font-size: 31px;
+    color: #EB4D4D;
+    font-size: 32px;
     margin-top: 38px;
     margin-left: 40px
 }
 
 .description:hover i {
-    color: #EB4D4D;
+    color: #555;
     transition: color 0.3s;
-    font-size: 32px;
+    font-size: 31px;
 }
 
 
