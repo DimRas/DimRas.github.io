@@ -47,7 +47,7 @@
 // ------------------------------------------------------------tesla------------------------------------       
         Car.prototype.movePlusTesla = function () {
           
-            if (this.x < 1560){
+            if (this.x < 1550){
                 this.x += 2;
                 this.y == 300;
                 this.carElement.css({
@@ -88,7 +88,7 @@
         
         
       Car.prototype.moveMinusTesla = function () {
-            if (this.x <= 1560){
+            if (this.x <= 1550){
                 this.x -= 1;
              
                 this.carElement.css({
@@ -146,7 +146,7 @@
 // ------------------------------------------------------------Mustang----------------------------------------------------//          
         
         Car.prototype.movePlusMustang = function () {
-            if (this.x < 1560){
+            if (this.x < 1550){
                 this.x += 2;
                 this.carElement.css({
                 left: this.x,
@@ -172,7 +172,7 @@
         
         
         Car.prototype.moveMinusMustang = function () {
-            if (this.x < 1560){
+            if (this.x < 1550){
                 this.x -= 1;
                 this.carElement.css({
                 left: this.x,
