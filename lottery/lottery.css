@@ -10,3 +10,61 @@
   }
 }
 
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+
+
+
+    h1 {
+        font-size: 16px;
+
+    }
+
+
+    .submit{
+        margin-bottom:8px;
+        text-align: center;
+    }
+    
+    button{
+        padding: 8px;
+        background:#eee;
+        border:solid 1px #ddd;
+        font-size:16px;
+        color:#555;
+        cursor:pointer;
+        outline:none;
+    }
+
+
+    #numbers{
+        text-align: center;
+        font-size:22px;
+        color:green;
+    }
+    
+    #strongNumber{
+        text-align: center;
+        font-size:22px;
+        color:red;
+        }
+
+    #simpleNum {
+        border: 1px solid #ddd;
+        background-color: aliceblue;
+        opacity: 0.9;
+        }    
+
+    #strongNum {
+        margin-top: 5px;
+        border: 1px solid #ddd;
+        background-color: aliceblue;
+        opacity: 0.9;
+        }
+    
+    
+    
+    
+    
+}
