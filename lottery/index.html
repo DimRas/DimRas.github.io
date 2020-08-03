@@ -37,18 +37,14 @@
      
 
      
+     
 <style>
-    
-    
-
-    
-    
     
     body {
        
         background-image: url(lotteryImage.jpg);
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: auto; 
     }
     
     #lottery {
@@ -60,6 +56,8 @@
     
     h1 {
         text-align: center;
+        font-weight: lighter
+        
     }
 
     .submit{
@@ -87,7 +85,7 @@
         text-align: center;
         font-size:24px;
         color:green;
-        
+        margin-bottom: 10px;
         
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
         transform: scale(1);
@@ -115,7 +113,8 @@
         text-align: center;
         font-size:24px;
         color:red;
-       
+        margin-bottom: 10px;
+        
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
         transform: scale(1);
         animation: pulse2 2s infinite;
@@ -154,12 +153,11 @@
 </style>
 
 
-        
+       
+     
+     
 <script>
     
-    
-
-   
 function generate(size, lowest, highest) {
 	var numbers = [];
 	for(var i = 0; i < size; i++) {
