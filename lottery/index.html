@@ -2,11 +2,22 @@
 <html>
  <head>
      
-  <meta charset="utf-8">
-  <title>text-align</title>
+     <meta charset="utf-8">
+     <title>text-align</title>
      <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--     <meta name="viewport" content="width=500, initial-scale=1">-->
-  <link rel="stylesheet" href="lottery.css">
+     
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+     
+<!--
+     <script src="lottery.js"></script>
+     
+     <link rel="stylesheet" href="lottery.css">
+-->
+     
+     
+     
+  
+     
      
  </head>
 
@@ -14,11 +25,18 @@
     
  <body>
      
+     <h1 class="ml6">
+         <span class="text-wrapper">
+             <span class="letters">Lucky <span style="color: red">Lotteries</span></span>
+         </span>
+     </h1>
+     
+         
      
      <div id="lottery">
          
      <div id="simpleNum">
-         <h2><em style="color: green">Simple</em> Number Generator</h2>
+         <h2><em style="color: forestgreen">Simple</em> Number Generator</h2>
      <div class="submit">
         <button onclick="generate(6, 1, 37);">Generate</button>
      </div>
@@ -36,7 +54,8 @@
     </div>
      
      
-
+     
+     
      
      
 <style>
@@ -49,10 +68,56 @@
     }
     
     #lottery {
-      
         margin: auto;
         width: 100%;
     }
+    
+    
+    
+    
+
+/*
+    h1 {
+        font-size: 40px;
+        text-align: center;
+        color: red;
+        text-decoration-style: 1px solid;
+        text-shadow: 1px 1px 2px #555, 0 0 5em white;
+        letter-spacing: 5px;
+        border-bottom: 3px solid aliceblue;
+    }
+*/
+
+    
+    
+    
+    
+    .ml6 {
+        position: relative;
+        font-weight: 900;
+        font-size: 3.3em;
+        color: aliceblue;
+        text-align: center;
+        text-shadow: 1px 1px 2px #555, 0 0 5em ;
+    }
+
+    .ml6 .text-wrapper {
+        position: relative;
+        display: inline-block;
+        padding-top: 0.2em;
+        padding-right: 0.05em;
+        padding-bottom: 0.1em;
+        overflow: hidden;
+    }
+
+    .ml6 .letter {
+      display: inline-block;
+      line-height: 1em;
+    }
+    
+    
+    
+    
     
     h2 {
         color: #555;
@@ -85,12 +150,13 @@
     #numbers{
         text-align: center;
         font-size: 24px;
-        color: green;
+        color: forestgreen;
         margin-bottom:10px;
         
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
         transform: scale(1);
         animation: pulse 2s infinite;
+        
     }
     
     @keyframes pulse {
@@ -141,13 +207,15 @@
 
     #simpleNum {
         border: 1px solid #ddd;
+        border-radius: 50%;
         background-color: aliceblue;
         opacity: 0.9;
         }    
 
     #strongNum {
-        margin-top: 5px;
+        margin-top: 10px;
         border: 1px solid #ddd;
+        border-radius: 50%;
         background-color: aliceblue;
         opacity: 0.9;
         }
@@ -157,8 +225,32 @@
 
        
      
+    
      
 <script>
+    
+    // Wrap every letter in a span
+    var textWrapper = document.querySelector('.ml6 .letters');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline({loop: true})
+      .add({
+        targets: '.ml6 .letter',
+        translateY: ["1.1em", 0],
+        translateZ: 0,
+        duration: 750,
+        delay: (el, i) => 50 * i
+      }).add({
+        targets: '.ml6',
+        opacity: 0,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000
+      });
+    
+    
+    
+
     
 function generate(size, lowest, highest) {
 	var numbers = [];
@@ -195,10 +287,11 @@ function generateStrong(size, lowest, highest) {
     var randomStrongNumber = Math.floor(Math.random() * highest) + 1;
     document.getElementById("strongNumber").innerHTML = (" - " + randomStrongNumber + " - ");
 }
-               
+             
 </script>
   
 
     
 </body>    
+    
 </html>
