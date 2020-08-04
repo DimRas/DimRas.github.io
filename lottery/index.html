@@ -47,7 +47,7 @@
      <div id="strongNum">
      <h2><em style="color: red">Strong</em> Number Generator</h2>
      <div class="submit">
-        <button onclick="generateStrong(1, 1, 7);">Generate</button>
+        <button class="button2" onclick="generateStrong(1, 1, 7);">Generate</button>
      </div>
      <div id="strongNumber"></div>
      </div>
@@ -62,7 +62,7 @@
     
     body {
        
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(lotteryImage.jpg) ;
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(lotteryImage.png) ;
         background-size: auto; 
     }
     
@@ -85,7 +85,7 @@
         font-size: 3.3em;
         color: aliceblue;
         text-align: center;
-        text-shadow: 1px 1px forestgreen;
+        text-shadow: 2px 1px #555;
     }
 
     .ml6 .text-wrapper {
@@ -107,6 +107,7 @@
     
     
     h2 {
+        
         color: #555;
         text-align: center;
         font-weight: lighter;
@@ -129,9 +130,21 @@
     }
 
     button:hover{
+/*
         background: #999;
         color: #fff;
-       
+*/
+        background: forestgreen;
+        color: aliceblue;
+    }
+    
+        .button2:hover{
+/*
+        background: #999;
+        color: #fff;
+*/
+        background: red;
+        color: aliceblue;
     }
 
     #numbers{
@@ -193,17 +206,20 @@
 }
 
     #simpleNum {
+        padding: 10px;
         border: 1px solid #ddd;
         background-color: aliceblue;
         opacity: 0.9;
+        border-top-left-radius: 50px;
         }    
 
     #strongNum {
         margin-top: 10px;
         border: 1px solid #ddd;
-       
+        padding: 10px;
         background-color: aliceblue;
         opacity: 0.9;
+        border-bottom-right-radius: 50px
         }
     
     
