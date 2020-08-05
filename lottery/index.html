@@ -6,7 +6,7 @@
      <title>text-align</title>
      <meta name="viewport" content="width=device-width, initial-scale=1">
      
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
      
 
      
@@ -21,7 +21,7 @@
     
  <body>
      
-     <h1 class="ml6">
+     <h1 class="ml6" lang="ru">
          <span class="text-wrapper">
              <span class="letters">Lucky Lotteries</span>
          </span>
@@ -86,17 +86,20 @@
 
     .ml6 .text-wrapper {
         position: relative;
-        display: inline-block;
+        display: block;
         padding-top: 0.2em;
         padding-right: 0.05em;
 /*        padding-bottom: 0.1em;*/
         overflow: hidden;
+     
     }
 
     .ml6 .letter {
       display: inline-block;
       line-height: 1em;
+
     }
+    
     
     
     
@@ -232,8 +235,9 @@
         background-size: auto; 
         }
          
-         span .letters {
-             word-break: normal;
+    .ml6 .letter {
+        display: inline;
+        
          }
     }
     
