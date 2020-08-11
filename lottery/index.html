@@ -92,7 +92,7 @@
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url('https://lkp.dispendik.surabaya.go.id/assets/loading.gif') 50% 50% no-repeat rgb(249,249,249, .8);
+    background: url('https://lkp.dispendik.surabaya.go.id/assets/loading.gif') 50% 50% no-repeat rgb(249,249,249, .9);
     }
 /*    --------------------------------------------------------------------------------------*/
     
@@ -282,10 +282,21 @@
     
 //---------------------------Loader Js For Web App----------------------------------------------
     
+    
+
+  setTimeout(myURL, 5000);
+         function myURL(){
+            window.open('https://dimras.github.io/lottery/');
+         }
+   
+    
+    
     $(window).load(function() {
         $(".loader").fadeOut("slow");
 });
-   
+    
+    
+
 //    --------------------------------------------------------------------------------------------
     
     
