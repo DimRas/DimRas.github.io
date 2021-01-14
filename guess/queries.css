@@ -19,6 +19,14 @@
       padding: 2.5rem;
       width: 18rem;
     }
+    
+    header {
+     
+      height: 40vh;
+      border-bottom: 7px solid #eee;
+    }
+    
+    
 
 }
 
@@ -28,6 +36,7 @@
      h1 {
         line-height: 1.5;
     }
+    
 
     
 }
