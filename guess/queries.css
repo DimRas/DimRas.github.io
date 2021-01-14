@@ -8,13 +8,26 @@
     
     ion-icon {
         font-size: 14px;
-    }   
+    }
+    
+    h1 {
+        line-height: 1.5;
+    }
+    .guess {
+    
+      font-size: 5rem;
+      padding: 2.5rem;
+      width: 18rem;
+    }
 
 }
 
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+     h1 {
+        line-height: 1.5;
+    }
 
     
 }
