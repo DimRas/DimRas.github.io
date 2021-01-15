@@ -26,7 +26,10 @@
       border-bottom: 7px solid #eee;
     }
     
-    
+	.message {
+     	   line-height: 1.5;
+    }
+  
 
 }
 
