@@ -11,9 +11,11 @@
 /////////////////////////////////////////////////
 // BANKIST APP
 
+alert('to enter your account use: (user: dr, pin: 1111),(user: jd, pin: 2222),(user: stw, pin: 3333), (user: ss, pin: 4444)');
+
 // Data
 const account1 = {
-  owner: 'Jonas Schmedtmann',
+  owner: 'Dmitriy Raskin',
   movements: [200, 450, -400, 3000, -650, -130, 70, 1300],
   interestRate: 1.2, // %
   pin: 1111,
