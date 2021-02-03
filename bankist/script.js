@@ -11,7 +11,7 @@
 /////////////////////////////////////////////////
 // BANKIST APP
 
-alert('to enter your account use: (user: dr, pin: 1111),(user: jd, pin: 2222),(user: stw, pin: 3333), (user: ss, pin: 4444)');
+alert('To Enter Your Account Use: (User: dr, Pin: 1111), (User: jd, Pin: 2222), (User: stw, Pin: 3333), (User: ss, Pin: 4444)');
 
 // Data
 const account1 = {
