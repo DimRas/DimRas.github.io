@@ -1,6 +1,6 @@
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
- 
+   
 }
 
 
@@ -10,9 +10,9 @@
     font-size: 40%;
     box-sizing: border-box;
     }
-	
-	.nav {
-	margin: 0;
-	padding; 0;
-	}
+    
+    .nav {
+        margin: 0;
+        padding: 0;
+    }
 }
