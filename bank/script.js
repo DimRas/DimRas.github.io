@@ -325,93 +325,10 @@ const slider = function () {
 slider();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /////////////////////////////////////////////////////
 /////////////////////////////////////////////////////
 /////////////////////////////////////////////////////
 
-//const btnScrollTo = document.querySelector('.btn--scroll-to');
-//
-//const section1 = document.querySelector('#section--1');
-//
-//btnScrollTo.addEventListener('click', function(e) {
-//    
-////    const s1coords = section1.getBoundingClientRect();
-////
-////
-////window.scrollTo({
-////    left: s1coords.left + window.pageXOffset,
-////    top: s1coords.top + window.pageYOffset,
-////    behavior: 'smooth',
-////    
-////});
-//    
-//    section1.scrollIntoView({behavior: 'smooth'});
-//});
-
-
-//const h1 = document.querySelector('h1');
-//
-//
-//const alertH1 = function (e) {
-//   alert('onmouseenter: Great! You are reading the heading :D');
-//    h1.removeEventListener('mouseenter', alertH1);
-// };
-//
-//// h1.onmouseenter = function (e) {
-////   alert('onmouseenter: Great! You are reading the heading :D');
-////     
-//// };
-//h1.addEventListener('mouseenter', alertH1);
-
-
-//const h1 = document.querySelector('h1');
-//
-//// Going downwards: child
-//console.log(h1.querySelectorAll('.highlight'));
-//console.log(h1.childNodes);
-//console.log(h1.children);
-//
-//h1.lastElementChild.style.color = 'green';
-//h1.firstElementChild.style.color = 'white';
-//
-//// Going upwards: parents
-//console.log(h1.parentNode);
-//console.log(h1.parentElement);
-//
-//h1.closest('header').style.background = 'var(--gradient-secondary)';
-//
-//// Going sideways: siblings
-//console.log(h1.previousElementSibling);
-//console.log(h1.nextElementSibling);
-
-
-document.addEventListener('DOMContentLoaded', function(e) {
-    console.log('Html parsed and DOM tree built', e);
-});
-
-document.addEventListener('load', function(e) {
-    console.log('Page fully loaded', e);
-});
-
-document.addEventListener('beforeunload', function(e) {
-    e.preventDefault();
-    console.log(e);
-    e.returnValue = '';
-});
 
 
 
