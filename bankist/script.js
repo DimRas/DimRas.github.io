@@ -480,78 +480,7 @@ btnSort.addEventListener('click', function (e) {
     sorted = !sorted;
 });
 
-
-
-
 //---------------------------------------------------------------------------
-
-//console.log(Number('23'));
-//console.log(+'23');
-//
-//console.log(Number.parseInt('30px'));
-//console.log(Number.parseInt('30.22'));
-//
-//console.log(Number.parseFloat('30.22'));
-//
-//console.log(Number.isNaN(23 / 0));
-//console.log(Number.isFinite(23));
-//
-//console.log(Number.isInteger('23'));
-
-
-//console.log(Math.sqrt(49));
-//
-//console.log(Math.pow(25, 0.5));
-//
-//console.log(Math.max(1,2,3,43,5));
-//
-//console.log(Math.trunc(Math.random() * 6) + 1);
-//console.log(Math.trunc(23,4));
-//
-//console.log(Math.round(23.7));
-//console.log(Math.ceil(23.1));
-//console.log(Math.floor(23.9));
-//
-//console.log(typeof(+(23.9).toFixed(0)));
-//console.log(+(23.9).toFixed(0));
-
-//console.log(8 % 3); // 2
-//console.log(8 / 3); // 8 = 2 * 3 + 2
-//
-//console.log(50 % 3); // 2
-//console.log(50 / 3); // 50 = 16 * 3 + 2
-//
-//const isEven = n => n % 2 ===0;
-//console.log(isEven);
-//
-//const movRow = document.querySelectorAll('.movements__row');
-//
-//labelBalance.addEventListener('click', function () {
-//   document.querySelectorAll('.movements__row').forEach(function (row, i) {
-//   if (i % 2 === 0) {
-//       row.style.backgroundColor = 'gray';  
-//   } 
-//   if (i % 3 === 0) {
-//   row.style.backgroundColor = 'blue';  
-//   }  
-//});  
-//});
-
-
-//console.log(838430248342043823408394839483204n);
-//console.log(BigInt(48384302));
-//console.log(20n > 15);
-//console.log(20n == 20);
-//console.log(typeof 20n);
-//console.log(20n == '20');
-
-
-//console.log(new Date(account1.movementsDates[0]));
-
-//setTimeout(function(){
-//    console.log('hello');
-//}, 3000);
-//console.log('Waiting...');
 
 
 
