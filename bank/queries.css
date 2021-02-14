@@ -13,4 +13,9 @@
     font-size: 25%;
     box-sizing: border-box;
     }
+	
+	.nav {
+    margin: 0;
+    padding: 0;
+	}
 }
