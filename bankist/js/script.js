@@ -17,7 +17,7 @@
 // Data
 
 
-alert('To Enter Your Account Use: (User: dr, Pin: 1111), (User: jd, Pin: 2222), (User: stw, Pin: 3333), (User: ss, Pin: 4444)');
+//alert('To Enter Your Account Use: (User: dr, Pin: 1111), (User: jd, Pin: 2222), (User: stw, Pin: 3333), (User: ss, Pin: 4444)');
 
 // DIFFERENT DATA! Contains movement dates, currency and locale
 
