@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #0f0f1d;
+    --secondary-color: #161725;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    padding: 16px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--secondary-color);
+}
+
+.search {
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 16px;
+    color: white;
+    font-family: inherit;
+    transition: 0.5s;
+}
+
+.search:focus {
+    outline: 0;
+    background-color: var(--primary-color);
+    transition: 0.5s;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    width: 300px;
+    margin: 16px;
+    border-radius: 5px;
+    box-shadow: 0.2px 4px 5px rgba(0,0,0,0.1);
+    background-color: var(--secondary-color);
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.movie:hover {
+    width: 307px;
+    transition: 0.5s;
+}
+
+.movie img {
+    width: 100%;
+}
+
+.movie-info {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px 16px;
+    letter-spacing: 0.5px;
+}
+
+.movie-info h3 {
+    margin-top: 0;
+}
+
+.movie-info span {
+    background-color: var(--primary-color);
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.movie-info span.green {
+    color: #00ff00 ;
+}
+
+.movie-info span.orange {
+    color: #ff8000;
+}
+
+.movie-info span.red {
+    color: #ff0000;
+}
+
+.overview {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--secondary-color);
+    padding: 16px;
+    color: white;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: 0.5s;
+}
+
+.movie:hover .overview {
+    transform: translateY(0);
+    overflow: auto;
+}
+
+#tags{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+#popular, #now, #favorite {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #0080ff;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0.2px 4px 5px rgba(0,0,0,0.1);
+    user-select: none;
+}
+
+#tags div:hover {
+    background-color: var(--secondary-color);
+    color: #0080ff;
+    transition: 0.5s;
+}
+
+#favorite:active {
+    background-color: green;
+}
+
+.overview button {
+    border: none;
+    color: #0080ff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    padding: 6px 10px;
+    float: right;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.overview button:hover {
+    color: white;
+    background-color: #0080ff;
+    transition: 0.5s;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
